@@ -10,15 +10,17 @@
         android:layout_height="200dp" />
 
     <Button
-        android:id="@+id/addDocument"
-        android:text="@string/add_document"
+        android:id="@+id/add_document"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_document" />
 
     <Button
-        android:id="@+id/deleteDocument"
-        android:text="@string/delete_document"
+        android:id="@+id/delete_document"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/delete_document" />
 
 </LinearLayout>

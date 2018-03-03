@@ -3,4 +3,6 @@
     <string name="add_document">Добавить документ</string>
     <string name="delete_document">Удалить документ</string>
     <string name="empty_document">Документов нет</string>
+
+    <string name="document">Документ </string>
 </resources>

@@ -33,4 +33,11 @@ public class DocumentFragment extends Fragment {
         TextView documentText = view.findViewById(R.id.documentText);
         documentText.setText(getArguments().getString(DOCUMENT_TEXT));
     }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setRetainInstance(true);
+    }
+
 }
